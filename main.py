@@ -3,9 +3,6 @@ from data_structures import Node, Queue
 from graph_algorithms import bfs
 from sys import argv
 
-count = 1
-hit = -1
-
 
 def create_edges(data: DataReader, node: Node, visited: dict) -> Node:
     """
